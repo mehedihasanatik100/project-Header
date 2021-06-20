@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* header start */
+header{
+    padding: 20px 0;
+   border-bottom: 1px solid;
+
+  
+   
+}
+.container {
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.logo {
+    width: 10%;
+    float: left;
+}
+.logo img {
+    width: 100%;
+    margin-top: 5px;
+}
+.nenu{
+    float: right;
+    width: 50%;
+}
+.nenu ul {
+   float: right;    
+}
+.nenu ul li{
+    list-style: none;
+    float:left ;
+}
+.nenu ul li a{
+    text-decoration: none;
+    margin: 0 15px;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #000;
+  
+   
+}
+.nenu ul li :last-child a{
+   margin-right: 0;
+}
+.nenu ul li a:hover{
+    color:white;
+    transition: .5s;
+    background: blue;
+}
+/* header end */
